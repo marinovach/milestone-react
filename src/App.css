@@ -1,38 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+* {
+  font-family: "Inconsolata", monospace;
+}
+
 .App {
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(/src/photo-1534179523731-b2922018150a.jpg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-form {
+  width: 70%;
+  background-color: rgb(248, 214, 220);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Fields {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 60px 5px 40px 5px;
+  margin-top: 10rem;
 }
 
-.App-link {
-  color: #61dafb;
+.label-inputs {
+  font-size: 25px;
+  opacity: 75%;
+  color: rgb(56, 17, 56);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-inputs {
+  border-style: none;
+  border-bottom: 1.7px solid black;
+  font-size: 16px;
+  background-color: rgb(248, 214, 220);
 }
